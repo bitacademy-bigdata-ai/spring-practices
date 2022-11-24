@@ -63,7 +63,7 @@ public class XmlConfigTest {
 		user = ac.getBean("user4", User.class);
 		System.out.println(user);
 
-		// setter로 초기화 한 빈 가져오기
+		// setter로 초기화 한 빈 가져오기1
 		user = ac.getBean("user5", User.class);
 		System.out.println(user);
 		
